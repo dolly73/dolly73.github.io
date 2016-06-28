@@ -1,3 +1,14 @@
 .col-md-4 {
     text-align: center
 }
+.glyphicon-home {
+    font-size: 18px;
+    color: yellow;
+    padding-right: 15px;
+}
+
+.glyphicon-user {
+    font-size: 18px;
+    color: aquamarine;
+    padding-right: 10px;
+}
