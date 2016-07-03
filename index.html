@@ -1,25 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
-    <title>dolly's homework</title>
+    <title>267</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <h1>項德慧的作業
-    </h1>
-    <ul>
-        <li><a href="iphone/iphone.html" target="_blank">iphone</a></li>
-        <li> <a href="mediascreen/index.html" target="_blank">media screen</a></li>
-        <li></li>
-    </ul>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="site-heading">
+                        <h1>HTML267 Blog</h1>
+                        <hr class="small">
+                        <span class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vitae, quibusdam aliquam provident natus et quis . </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
 
 
 
+
+
+
+    <!--navbar-->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">HTML267</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#me">關於我</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">作業 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="iphone.html" target="_blank">iPHONE</a></li>
+                            <li><a href="rwd.html" target="_blank">RWD</a></li>
+                            <li><a href="#" target="_blank">Page 1-3</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#contant">聯絡方式</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar End-->
+
+    <!--頭像-->
+
+    <div id="me" class="row">
+        <div class="col-md-2"> </div>
+        <div class="col-md-3">
+            <div class="thumbnail avatar" id="profile">
+                <img class="wow rollIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-iteration="1" data-wow-offset="100" src="images/22.jpg" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="col-md-5">
+            <div>
+                <h>Created by:</h>
+                <h1>項德慧</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium blanditiis assumenda rerum sapiente itaque tempore velit, sed, molestias qui repellat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="aboutme" style="background-color:rgba(15, 31, 96, 0.4)">
+        <div class="container" id="main">
+
+            <!--主區塊-->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1>關於我</h1>
+                            <small>About me</small>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail wow animated bounceInLeft">
+                            <img src="images/book.jpg" alt="">
+                            <div class="caption">
+                                <h1>學歷</h1>
+                                <p>
+                                    <ul>
+                                        <li>Lorem ipsum dolor.</li>
+                                        <li>大學 冥船大學</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail wow animated bounceInup">
+                            <img src="images/art.jpg" alt="">
+                            <div class="caption">
+                                <h1>興趣</h1>
+                                <p>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail wow animated bounceInRight">
+                            <img src="images/Design.jpg" alt="">
+                            <div class="caption">
+                                <h1>專長</h1>
+                                <p>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit.</li>
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+            </div>
+        </div>
+    </div>
+
+    <!--主區塊 End-->
+
+    <div class="aboutme" style="background-color:rgba(46, 109, 165, 0.51)">
+        <div class="container" id="main">
+
+            <!--主區塊-->
+            <div id="contant" class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1>聯絡方式</h1>
+                            <small>Contact me</small>
+                        </div>
+
+                        <div class="col-md-4"></div>
+                        <div class="col-md-6">
+
+                            <p>
+                                <ul>
+                                    <li>dollyhsiang@gmail.com</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consequatur!</li>
+                                </ul>
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+<footer>
+    <br>
+    <br>
+    <div class="col-md-12"></div>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-sm-4">
+                <a href="#"><h3><span class="	glyphicon glyphicon-thumbs-up"></span><br>SHARE THIS PAGE</h3></a>
+
+            </div>
+            <div class="col-sm-4">
+                <h3> 關於我</h3>
+                <a href="#me">About me</a>
+            </div>
+            <div class="col-sm-4">
+                <h3>作業們</h3>
+                <a href="iphone.html" target="_blank">Homework一</a>
+                <br>
+                <a href="rwd.html" target="_blank">Homework二</a>
+                <br>
+                <a href="#me">Homework三</a>
+                <br>
+            </div>
+            <div class="col-sm-12">
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>

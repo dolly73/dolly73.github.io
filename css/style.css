@@ -1,0 +1,77 @@
+.jumbotron {
+    background: center;
+    background-image: url(../images/05.jpg);
+    color: #ffffff;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 800px;
+    padding-top: 200px;
+}
+
+.jumbotron h1 {
+    font-size: 110px;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.thumbnail.avatar {
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: right;
+}
+
+.col-md-5 {
+    text-align: center;
+}
+
+.page-header {
+    text-align: center
+}
+
+.col-lg-6 {
+    background-color: rgba(6, 10, 20, 0.27);
+    padding: 30px;
+}
+
+.col-sm-4 {
+    text-align: center
+}
+
+p {
+    font-size: 22px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue
+}
+
+.subheading {
+    font-size: 22px;
+}
+
+footer {
+    background-image: url(../images/03.jpg);
+    background-size: cover;
+}
+
+h3 {
+    color: aliceblue
+}
