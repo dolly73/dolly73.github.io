@@ -14,7 +14,7 @@
 }
 
 #main {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 0px;
 }
@@ -74,4 +74,82 @@ footer {
 
 h3 {
     color: aliceblue
+}
+
+#layout1 {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/c1.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0 auto;
+    position: relative;
+}
+
+#layout2 {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/c2.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0 auto;
+    position: relative;
+}
+
+#layout3 {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/c3.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0 auto;
+    position: relative;
+}
+
+#layout4 {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/c4.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0 auto;
+    position: relative;
+}
+
+#test {
+    opacity: 0;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(28, 27, 24, 0.5);
+    transition-property: opacity;
+    transition-duration: .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .25s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#test:hover {
+    opacity: 1
+}
+
+.col-md-3 {
+    padding: 0;
+}
+
+p1 {
+    position: relative;
+    top: 120px;
+    padding: 20px 0px;
+    color: rgba(240, 248, 255, 0.45);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+    border: 12px solid rgba(0, 0, 0, 0.63);
+    white-space: nowrap;
+}
+
+ul {
+    font-size: 24px
 }
