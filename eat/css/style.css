@@ -1,0 +1,53 @@
+/*一些基本設定*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+* {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans Thaana', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/*header*/
+
+div.top {
+    background-color: #b9ddfd;
+    position: relative;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.featured-images {
+    width: 100%;
+    height: 300PX;
+    background-image: url(../images/mo.jpg)
+}
+
+h1 {
+    color: #062c95;
+    font-size: 33px;
+}
+
+h2 {
+    color: #f40038;
+    font-size: 24px;
+    text-decoration;
+}
+
+p {
+    font-size: 16px;
+    width: 800px;
+    color: #2f5d93;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+div ul>li {
+    list-style: none;
+    list-style-position: inside;
+    display: inline-block;
+}
